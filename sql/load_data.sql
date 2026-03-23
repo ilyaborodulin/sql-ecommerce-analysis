@@ -1,0 +1,1 @@
+\copy ecommerce_data (InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country) FROM '/Users/ilyaborodulin/Desktop/eda_sql_project/data/data.csv' DELIMITER ',' CSV HEADER ENCODING 'LATIN1';
